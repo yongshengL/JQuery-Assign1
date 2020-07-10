@@ -1,0 +1,19 @@
+.gridArea {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"inputs"
+	;
+	grid-gap: 5px;
+}
+.inputs{
+	grid-area: inputs;
+    background-color: yellow;
+    border: thick solid black;
+
+}
+.group {display: flex;}
+label {flex: 1;}
+input {flex: 2;}
+select {flex:2;}
+.show{flex:2}
